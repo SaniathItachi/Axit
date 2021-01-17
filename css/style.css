@@ -1,0 +1,362 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+/**************
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+***************/
+
+a{
+	text-decoration: none;
+}
+
+
+/***********
+
+header section css start here
+
+***********/
+header{
+	width: 100%;
+	background-color: black;
+	padding: 12px;
+
+}
+
+.nav-link{
+	color: #848484 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.nav-link:hover{
+	color: #fff !important;
+}
+
+
+/*************
+banner part css start here
+
+************/
+.banner{
+	width: 100%;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.banner-text{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.banner-text img{
+	margin-left: -15px;
+	margin-bottom: 15px;
+}
+
+.banner-text h1{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	width: 81%;
+	font-weight: 400;
+	font-size: 36px;
+}
+.banner-text .line{
+	width: 14%;
+	border: 2px solid #fff;
+	margin-top: 40px;
+}
+
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin-top: 40px;
+	width: 94%;
+	font-weight: 300;
+
+}
+
+.banner-text button{
+	padding: 5px 15px ;
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	margin-top: 30px;
+
+}
+
+.banner-text button:hover{
+	background: white;
+	color: black;
+	
+
+}
+
+.banner-form{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.card{
+	border: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.card-header{
+	background-color: #f5f5f5;
+	padding: 1rem 1rem;
+}
+
+.card-header h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 600;
+	text-align: center;
+}
+
+.card-header  h4 span{
+	color: #ff8b38;
+	text-transform: uppercase;
+}
+
+.card-body {
+    padding: 1rem 2.5rem !important;
+}
+
+.card-body input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+    margin: 20px 0px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+
+
+}
+
+.card-body input:focus{
+	outline: none;
+}
+
+.card-body input::placeholder{
+	color: #cccccc;
+}
+
+.card-body .last{
+	margin-bottom: 34px !important;
+}
+.card-footer{
+	background-color: #ff9b51;
+}
+
+.card-footer button{
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #ff9b51;
+	color: #fff;
+}
+
+.card-footer button:focus{
+	outline: none;
+}
+
+
+/**********************************
+social media icon css starts here
+***********************************/
+.social-media{
+	width: 100%;
+	padding-top: 20px;
+	box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.2)
+	
+}
+
+.content{
+	width: 100%;
+
+}
+
+.content h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-weight: 700;
+
+}
+
+.content p{
+	font-family: 'Open Sans', sans-serif;
+	color: #cccccc;
+}
+
+
+.icon{
+	width: 100%;
+}
+
+.icon ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 45px;
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.icon ul li a{
+	color: #cccccc;
+}
+
+.icon ul li a i:hover{
+	color: blue;
+}
+
+
+/*********************
+service css starts from here
+*********************/
+
+.service{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 60px 0px;
+}
+
+
+
+.service ul li{
+	list-style: none;
+	width: 88px;
+	height: 98px;
+	background-color: #ff8b38;
+	text-align: center;
+	margin-bottom: 2px;
+	line-height: 98px;
+	
+
+}
+.service ul li a{
+	color: #ffffff !important;
+}
+
+.item-1{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+		
+}
+
+.item-2{
+	background-color: #333333 !important;
+
+}
+
+
+.item-3{
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: #333333 !important;
+
+}
+
+.service .text{
+	width: 100%;
+	padding: 10px;
+}
+
+.service .text h5{
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 1.4rem;
+
+
+}
+
+.service .text p{
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+}
+
+
+
+.service .text button{
+	padding: 10px;
+	width: 25%;
+	background-color: #ff8b38;
+	color: #ffffff;
+	border: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 1rem;
+}
+
+
+.service .picture{
+	margin-top: 30px;
+	padding-left: 10px;
+}
+
+
+/*********************
+post part css start here 
+**********************/
+.topic{
+	width: 100%;
+
+}
+
+.topic .topic-pic{
+
+}
+
+.topic .pic-detail{
+	width: 100%;
+
+}
+
+.topic .pic-detail h5{
+
+}
+
+.topic .pic-detail .line-2{
+	border-bottom: 2px solid #fe8d3a;
+	width: 12%;
+	margin-top: 30px;
+
+
+}
+
+.topic .pic-detail p{
+	margin-top: 30px;
+	color: #c3c3c5;
+	margin-bottom: 30px;
+
+}
+
+.topic .pic-detail{
+	width: 100%;
+}
+
+.imag{
+	display: flex;
+}
+.imag .detail{
+	margin-left: 30px;
+}
+
+.imag .detail p{
+	margin-top: 0px;
+
+}
+
