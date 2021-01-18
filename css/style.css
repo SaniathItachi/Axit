@@ -234,18 +234,22 @@ service css starts from here
 
 .service ul li{
 	list-style: none;
-	width: 88px;
-	height: 98px;
-	background-color: #ff8b38;
+	width: 100px;
+	height: 107px;
+	background-color: #333333;
+	color: #ffffff;
 	text-align: center;
 	margin-bottom: 2px;
-	line-height: 98px;
+	line-height: 107px;
 	
 
 }
-.service ul li a{
-	color: #ffffff !important;
+
+
+.active-color{
+	color: #ff8b38;
 }
+
 
 .item-1{
 	border-top-left-radius: 3px;
@@ -253,16 +257,10 @@ service css starts from here
 		
 }
 
-.item-2{
-	background-color: #333333 !important;
-
-}
-
 
 .item-3{
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
-	background-color: #333333 !important;
 
 }
 
@@ -271,7 +269,7 @@ service css starts from here
 	padding: 10px;
 }
 
-.service .text h5{
+.service .text-1 h5 , .text-2 h5 , .text-3 h5{
 	margin-bottom: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -280,7 +278,7 @@ service css starts from here
 
 }
 
-.service .text p{
+.service .text-1 p, .text-2 p, .text-3 p {
 	width: 90%;
 	font-family: 'Open Sans', sans-serif;
 	color: #86878b;
@@ -288,7 +286,7 @@ service css starts from here
 
 
 
-.service .text button{
+.service .text-1 button, .text-2 button, .text-3 button{
 	padding: 10px;
 	width: 25%;
 	background-color: #ff8b38;
@@ -299,6 +297,10 @@ service css starts from here
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: 1rem;
+}
+
+.service .text-1 button, .text-2 button, .text-3 button:focus{
+	outline: none;
 }
 
 
@@ -313,6 +315,7 @@ post part css start here
 **********************/
 .topic{
 	width: 100%;
+	margin-top: 70px;
 
 }
 
@@ -347,16 +350,136 @@ post part css start here
 .topic .pic-detail{
 	width: 100%;
 }
+.pic-detail{
+	margin-left: 30px;
+	padding: 20px;
+}
+
+.pic-detail h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
 
 .imag{
 	display: flex;
 }
 .imag .detail{
-	margin-left: 30px;
+	margin-left: 40px;
+}
+
+.imag .detail h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
 }
 
 .imag .detail p{
 	margin-top: 0px;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
+.picture-1 ul li{
+	list-style: none;
+}
+
+.picture-1 ul li a i{
+	color: #ff8b38;
+	width: 40px;
+    color: #ff8b38;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 2px solid #ff8b38;
+}
+
+
+/****************
+post-2 part css start here
+
+***************/
+.topic-2{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 70px 0px;
+}
+
+.topic-2 .topic-info .line-3{
+	border-bottom: 2px solid #fe8d3a;
+	width: 12%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.topic-2 .topic-pic{
+	margin-left: 40px;
+}
+
+
+/*****************
+awesome top sextion css start here
+
+*****************/
+.top-section{
+	width: 100%;
+	padding:  100px 0px;
+}
+
+.top-part{
+
+	width: 100%;
+	margin-bottom: 100px;
+}
+.top-part h1{
+	font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+
+.top-part .line{
+	border-bottom: 2px solid #fe8d3a;
+	width: 12%;
+	margin: 30px auto;
+}
+
+.top-part p{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+}
+
+.top-section .content{
+	text-align: center;
+    
+}
+
+.top-section .content i{
+	color: #ff8b38;
+    border: 2px solid #ff8b38;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 67px;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+.top-section .content h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    margin: 30px;
+}
+
+.top-section .content p{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #86878b
+}
