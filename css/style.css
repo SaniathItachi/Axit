@@ -245,6 +245,10 @@ service css starts from here
 
 }
 
+.service ul li:hover{
+	cursor: pointer;
+}
+
 .item-1{
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -259,7 +263,7 @@ service css starts from here
 }
 
 .active-color{
-	color: #ff8b38 !important;
+	background-color:  #ff8b38 !important;
 }
 
 .service .text{

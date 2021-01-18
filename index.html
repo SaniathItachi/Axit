@@ -321,7 +321,7 @@
         $('.text-2').hide();
         $('.text-3').hide();
 
-        $('.item-1').addColor('active-color');
+        $('.item-1').addClass('active-color');
 
 
          // if tab-2 is selected
@@ -331,9 +331,9 @@
         $('.text-3').hide();
         
 
-        $('.item-1').removeColor('active-color');
-        $('.item-2').addColor('active-color');
-        $('.item-3').removeColor('active-color');
+        $('.item-1').removeClass('active-color');
+        $('.item-2').addClass('active-color');
+        $('.item-3').removeClass('active-color');
 
         });
 
@@ -343,9 +343,9 @@
           $('.text-1').hide();
           $('.text-2').hide();
           $('.text-3').show();
-          $('.item-1').removeColor('active-color');
-          $('.item-2').removeColor('active-color');
-          $('.item-3').addColor('active-color');
+          $('.item-1').removeClass('active-color');
+          $('.item-2').removeClass('active-color');
+          $('.item-3').addClass('active-color');
 
           });
 
@@ -355,9 +355,9 @@
           $('.text-1').show();
           $('.text-2').hide();
           $('.text-3').hide();
-          $('.item-1').addColor('active-color');
-          $('.item-2').removeColor('active-color');
-          $('.item-3').removeColor('active-color');
+          $('.item-1').addClass('active-color');
+          $('.item-2').removeClass('active-color');
+          $('.item-3').removeClass('active-color');
 
           });
 
