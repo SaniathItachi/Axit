@@ -245,12 +245,6 @@ service css starts from here
 
 }
 
-
-.active-color{
-	color: #ff8b38;
-}
-
-
 .item-1{
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -262,6 +256,10 @@ service css starts from here
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 
+}
+
+.active-color{
+	color: #ff8b38 !important;
 }
 
 .service .text{
