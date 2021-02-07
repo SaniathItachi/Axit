@@ -25,8 +25,16 @@ header{
 
 }
 
+.navbar-toggler{
+	border: 2px solid white !important;
+}
+
+.navbar-toggler-icon{
+	background-color: #fff !important;
+}
+
 .nav-link{
-	color: #848484 !important;
+	color: #fff !important;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	position: relative;
@@ -34,7 +42,7 @@ header{
 }
 
 .nav-link:hover{
-	color: #fff !important;
+	color: #848484 !important;
 }
 .nav-link:before{
 	content: '';
@@ -125,6 +133,9 @@ banner part css start here
 	height: 90vh;
 	display: table-cell;
 	vertical-align: middle;
+}
+.banner-form form{
+	margin-left: 100px;
 }
 
 .card{
@@ -256,13 +267,13 @@ service css starts from here
 
 .service ul li{
 	list-style: none;
-	width: 100px;
-	height: 107px;
+	width: 96px;
+	height: 96px;
 	background-color: #333333;
 	color: #ffffff;
 	text-align: center;
 	margin-bottom: 2px;
-	line-height: 107px;
+	line-height: 96px;
 	
 
 }
@@ -312,7 +323,7 @@ service css starts from here
 
 .service .text-1 button, .text-2 button, .text-3 button{
 	padding: 10px;
-	width: 25%;
+	width: 30%;
 	background-color: #ff8b38;
 	color: #ffffff;
 	border: none;
@@ -834,6 +845,222 @@ footer part css starts here
 }
 
 
+
+
+/**************
+  Responsive css starts here
+***************/
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .banner{
+    height: 80vh;
+  }
+  .banner-text{
+    height: 80vh;
+  }
+
+.banner-text h1{
+	font-size: 26px;
+}
+.banner-form{
+	height: 80vh;
+}
+
+.icon ul li{
+	margin-left: 19px;
+	font-size: 32px;
+}
+.service ul{
+	padding-left: 0;
+}
+.service .picture{
+	margin-top: 108px;
+}
+.topic .row{
+	flex-direction: column;
+}
+.topic .col-md-6{
+	width: 100%;
+}
+.topic .topic-pic{
+	text-align: center;
+}
+.topic-2 .row{
+	flex-direction: column-reverse;
+}
+.topic-2 .col-md-6{
+	width: 100%;
+}
+.topic-2 .topic-pic{
+	text-align: center;
+}
+.top-section{
+	padding: 60px 0px;
+}
+.top-part{
+	margin-bottom: 60px;
+}
+
+.top-section .content h4{
+	margin: 13px;
+}
+.table-1{
+	margin: 0px;
+}
+.m-7 {
+	padding: 40px 0px;
+}
+.stylish{
+	height: 35vh;
+}
+.banner-form form{
+	margin-left: 0px;
+}
+
+
+
+
+
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner{
+  	height: auto;
+  }
+  .banner-form form{
+	margin-left: 0px;
+	}
+	.banner-text{
+		text-align: center;
+	}
+	.banner-text h1{
+		width: auto;
+	}
+	.banner-text .line{
+		margin:20px  auto;
+	}
+	.content{
+		text-align: center;
+	}
+	.icon ul li{
+		margin: 0px 8px;
+		font-size: 26px;
+	}
+	.social-media{
+		box-shadow: none;
+	}
+	.icon ul {
+	    padding-left: 1.3rem;
+	  
+	}
+	.service ul li{
+		display: inline-block;
+	}
+	.service ul{
+		padding-left: 1.3rem;
+
+	}
+	.service .col-md-5{
+		text-align: center;
+        margin-left: 13px;
+	}
+	
+	.topic ul {
+        padding-left: 0px;
+    }
+    .pic-detail{
+    	margin-left: 0px;
+    }
+    .imag .detail {
+        margin-left: 20px;
+    } 
+    .topic .pic-detail .line-2{
+    	margin: 30px auto;
+    }
+    .topic .ht{
+    	text-align: center;
+    }
+    .topic .pc{
+    	text-align: center;
+    }
+    .topic-2{
+    	text-align: center;
+    }
+    .topic-2 .topic-info .line-3{
+    	margin: 30px auto;
+    }
+    .topic-2 .topic-pic{
+    	margin-left: 0px;
+    }
+    .top-section{
+    	padding: 60px 0px;
+    }
+    .top-part h1{
+    	font-size: 26px;
+    }
+    .top-part{
+    	margin-bottom: 30px;
+    }
+    .top-part p{
+    	padding: 0px 10px;
+    }
+    .top-section .content p {
+        padding: 0px 10px;	
+    }
+    .top-section .col-md-4{
+    	margin-bottom: 20px;
+    }
+    .pricing .table-1{
+    	margin: 0px;
+    }
+    .pricing .col-md-4{
+    	margin-bottom: 15px;
+    }
+    .pricing{
+    	padding-bottom: 0px;
+    }
+    .user .col-md-3{
+    	padding-right: 12px;
+        margin-bottom: 8px;
+
+    }
+    .user .col-md-9{
+    	text-align: center;
+    }
+    .same-section h1{
+    	font-size: 18px;
+    }
+
+
+}
 
 
 
